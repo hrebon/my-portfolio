@@ -21,7 +21,7 @@ p{
     padding-left: 2%;
 }
 .half-width img{
-    width:100%
+    width:80%
 }
 .banner{
     background-image: url("images/top-banner.png");
@@ -68,4 +68,12 @@ section{
 }
 footer p{
     text-align: center;
+}
+img{
+    border-radius: 10px;
+    shape-rendering:optimizeSpeed;
+    border: 7px solid orange;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+
 }
