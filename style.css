@@ -1,10 +1,17 @@
 body{
     font-family:'Yellowtail', cursive;
+    margin:0;
 }
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -15,4 +22,50 @@ h1{
 }
 .half-width img{
     width:100%
+}
+.banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.button{
+    text-decoration:none;
+    background-image: linear-gradient(45deg, red, orange);
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    
+}
+.Big-dreams{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    box-shadow: 10px 10px 40px grey;
+    border-radius: 5px;
+    height: 80%;
+    background-color: white;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#boder-one{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,red,orange);
+    border-image-slice: 1;
+}
+#boder-two{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
